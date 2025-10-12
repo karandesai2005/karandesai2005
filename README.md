@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm I'm Karan Desai</h1>
-<h3 align="center">I am a passionate frontend passionate cybersecurity student dedicated to exploring the intricacies of digital security and protecting information systems. With a strong foundation in cybersecurity principles and a keen interest in the latest technologies, I strive to make the online world a safer place. developer from India</h3>
+<h3 align="center">I Love Money and computers </h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=karandesai2005&label=Profile%20views&color=0e75b6&style=flat" alt="karandesai2005" /> </p>
 

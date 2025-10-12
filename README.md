@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm I'm Karan Desai</h1>
+<h1 align="center">Hi 👋, I'm Karan</h1>
 <h3 align="center">I Love Money and computers </h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=karandesai2005&label=Profile%20views&color=0e75b6&style=flat" alt="karandesai2005" /> </p>

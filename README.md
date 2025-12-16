@@ -1,8 +1,4 @@
-It looks like the version you pasted has broken links (they are redirected through Google) and escaped HTML tags (like `\<table`), which will break the display on GitHub.
 
-Here is the **clean, corrected code**. Please copy this **exact code block** below and paste it into your `README.md` file.
-
-````markdown
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hey+There!+%F0%9F%91%8B+I'm+Karan;Security+Developer+%F0%9F%9B%A1%EF%B8%8F;Red+Team+Enthusiast+%F0%9F%92%BB;Builder+of+Secure+Systems+%F0%9F%94%90" alt="Typing SVG" />
 </h1>
@@ -142,6 +138,3 @@ class SecurityEngineer:
 \<p align="center"\>
 📫 \<b\>Reach me at:\</b\> \<a href="mailto:karanishudesai2@gmail.com"\>karanishudesai2@gmail.com\</a\>
 \</p\>
-
-```
-```

@@ -1,61 +1,92 @@
-<h1 align="center">Hey 👋, I'm Karan</h1>
-<h3 align="center">Cybersecurity Geek ⚡ | Red Team Enthusiast 💻 | Builder of Secure Systems 🔐</h3>
+<h1 align="center">Hey 👋, I'm Karan Desai</h1>
+<h3 align="center">
+Security-Focused Software Engineer • Red Team Enthusiast • Builder of Isolated & Secure Systems
+</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=karandesai2005&label=Profile%20views&color=0e75b6&style=flat" alt="karandesai2005" />
+  <img src="https://komarev.com/ghpvc/?username=karandesai2005&label=Profile%20Views&color=00e0a4&style=flat" alt="karandesai2005" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=karandesai2005&theme=matrix" alt="karandesai2005" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://twitter.com/white_crow017" target="blank">
-    <img src="https://img.shields.io/twitter/follow/white_crow017?logo=twitter&style=for-the-badge" alt="white_crow017" />
-  </a>
+  <img src="https://github-profile-trophy.vercel.app/?username=karandesai2005&theme=matrix&margin-w=15&margin-h=15" />
 </p>
 
 ---
 
-### 🧠 About Me
-- 🛡️ Passionate about **Cybersecurity, Ethical Hacking, and Red Teaming**  
-- 🔭 Currently building **secure systems and digital defense tools**  
-- 🌱 Learning **Cryptography & Malware Analysis**  
-- 🤝 Open to collaborate on **Offensive Security & DevSecOps projects**  
-- 📝 Sharing security insights on [Medium](https://medium.com/@karanishudesai2)  
+## 🛡️ About Me
+
+- 🔐 Security-focused engineer interested in **offensive security, system isolation, and secure-by-design applications**
+- 🧪 Actively building a **sandboxed pentesting platform** (Firejail, Go, FastAPI, Electron) to eliminate unsafe sudo & VM overhead
+- 🎯 Strong interest in **Red Teaming, API security, network security, and threat modeling**
+- 🏴‍☠️ Regular **CTF player** (web, networking, forensics, OSINT)
+- 📝 I write technical deep-dives on **networking, distributed systems, and security** on [Medium](https://medium.com/@karanishudesai2)
 - 📫 Reach me at **karanishudesai2@gmail.com**
 
 ---
 
-### 🧰 Tech Arsenal
-<p align="left"> 
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
-  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a>
-  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
-  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a>
-</p>
+## ⚔️ Current Focus
+
+- 🧱 Sandboxing & isolation (Firejail, Linux security primitives)
+- 🌐 API & backend security (auth, RBAC, rate limiting, abuse prevention)
+- 🧠 Threat modeling & secure system design
+- ☁️ DevSecOps & container security
+- 🧪 Learning exploit development & malware internals
 
 ---
 
-### 🧩 Connect with Me
+## 🧰 Tech & Security Arsenal
+
+### Languages & Scripting
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript)
+
+### Security & Infrastructure
+![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws)
+![Networking](https://img.shields.io/badge/Networking-007ACC?style=for-the-badge)
+
+### Backend & Systems
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
+
+---
+
+## 🏴‍☠️ Security Mindset
+
+> “If it needs sudo, it needs isolation.”
+
+I care deeply about:
+- Least privilege
+- Attack surface reduction
+- Abuse cases before features
+- Building tools that **fail safely**
+
+---
+
+## 🔗 Connect With Me
+
 <p align="left">
-<a href="https://twitter.com/white_crow017" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="white_crow017" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/karandesai2005" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="karandesai2005" height="30" width="40" /></a>
-<a href="https://medium.com/@karanishudesai2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@karanishudesai2" height="30" width="40" /></a>
-<a href="https://www.hackerearth.com/@karanishudesai2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="@karanishudesai2" height="30" width="40" /></a>
+<a href="https://github.com/karandesai2005"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github"/></a>
+<a href="https://linkedin.com/in/karandesai2005"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/></a>
+<a href="https://medium.com/@karanishudesai2"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium"/></a>
 </p>
 
 ---
 
-### ⚙️ GitHub Analytics
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=karandesai2005&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="karandesai2005" /></p>
+## 📊 GitHub Activity
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=karandesai2005&show_icons=true&locale=en&theme=tokyonight" alt="karandesai2005" /></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=karandesai2005&show_icons=true&theme=tokyonight" />
+</p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=karandesai2005&theme=tokyonight" alt="karandesai2005" /></p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=karandesai2005&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karandesai2005&layout=compact&theme=tokyonight" />
+</p>

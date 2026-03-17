@@ -173,18 +173,13 @@ I care deeply about:
 ---
 
 ## 📊 GitHub Stats
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=karandesai2005&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=karandesai2005&theme=tokyonight&hide_border=true" width="48%" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karandesai2005&layout=compact&theme=tokyonight&hide_border=true" width="40%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=karandesai2005&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" width="55%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karandesai2005&layout=compact&theme=tokyonight&hide_border=true" width="38%" />
 </p>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=karandesai2005&theme=matrix&margin-w=15&no-bg=true&no-frame=true" />
 </p>
-
 ---
 
 ## 🔗 Connect

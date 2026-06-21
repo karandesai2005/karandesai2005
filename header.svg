@@ -1,0 +1,272 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+
+      /* ── Matrix rain columns ── */
+      .col { font-family: 'Courier New', monospace; font-size: 13px; fill: #00e0a4; opacity: 0; animation: rain linear infinite; }
+      .col:nth-child(1)  { animation-duration: 2.1s; animation-delay: 0.0s; }
+      .col:nth-child(2)  { animation-duration: 2.7s; animation-delay: 0.3s; }
+      .col:nth-child(3)  { animation-duration: 1.9s; animation-delay: 0.6s; }
+      .col:nth-child(4)  { animation-duration: 2.4s; animation-delay: 0.1s; }
+      .col:nth-child(5)  { animation-duration: 2.2s; animation-delay: 0.9s; }
+      .col:nth-child(6)  { animation-duration: 3.0s; animation-delay: 0.4s; }
+      .col:nth-child(7)  { animation-duration: 1.8s; animation-delay: 0.7s; }
+      .col:nth-child(8)  { animation-duration: 2.6s; animation-delay: 0.2s; }
+      .col:nth-child(9)  { animation-duration: 2.3s; animation-delay: 1.1s; }
+      .col:nth-child(10) { animation-duration: 1.7s; animation-delay: 0.5s; }
+      .col:nth-child(11) { animation-duration: 2.9s; animation-delay: 0.8s; }
+      .col:nth-child(12) { animation-duration: 2.0s; animation-delay: 1.3s; }
+      .col:nth-child(13) { animation-duration: 2.5s; animation-delay: 0.15s; }
+      .col:nth-child(14) { animation-duration: 1.6s; animation-delay: 1.0s; }
+      .col:nth-child(15) { animation-duration: 2.8s; animation-delay: 0.45s; }
+      .col:nth-child(16) { animation-duration: 2.1s; animation-delay: 1.5s; }
+      .col:nth-child(17) { animation-duration: 3.2s; animation-delay: 0.25s; }
+      .col:nth-child(18) { animation-duration: 1.9s; animation-delay: 0.85s; }
+      .col:nth-child(19) { animation-duration: 2.6s; animation-delay: 1.2s; }
+      .col:nth-child(20) { animation-duration: 2.3s; animation-delay: 0.55s; }
+      .col:nth-child(21) { animation-duration: 2.0s; animation-delay: 1.4s; }
+      .col:nth-child(22) { animation-duration: 2.7s; animation-delay: 0.35s; }
+      .col:nth-child(23) { animation-duration: 1.8s; animation-delay: 0.95s; }
+      .col:nth-child(24) { animation-duration: 3.1s; animation-delay: 0.65s; }
+      .col:nth-child(25) { animation-duration: 2.2s; animation-delay: 1.6s; }
+
+      @keyframes rain {
+        0%   { transform: translateY(-280px); opacity: 0; }
+        10%  { opacity: 0.6; }
+        80%  { opacity: 0.3; }
+        100% { transform: translateY(280px); opacity: 0; }
+      }
+
+      /* ── bright head character ── */
+      .head { font-family: 'Courier New', monospace; font-size: 13px; fill: #ffffff; animation: rain linear infinite; }
+      .head:nth-child(1)  { animation-duration: 2.1s; animation-delay: 0.0s; }
+      .head:nth-child(2)  { animation-duration: 2.7s; animation-delay: 0.3s; }
+
+      /* ── terminal box ── */
+      .term-bg {
+        fill: rgba(0,0,0,0.82);
+        rx: 8; ry: 8;
+      }
+      .term-border {
+        fill: none;
+        stroke: #00e0a4;
+        stroke-width: 1.5;
+        rx: 8; ry: 8;
+      }
+
+      /* ── scanline overlay ── */
+      .scanlines {
+        fill: url(#scanline-pattern);
+        opacity: 0.04;
+      }
+
+      /* ── terminal text lines ── */
+      .tline {
+        font-family: 'Courier New', monospace;
+        font-size: 13px;
+        fill: #00e0a4;
+        opacity: 0;
+      }
+
+      /* boot sequence — each line fades in sequentially */
+      .l1  { animation: fadein 0.3s ease forwards; animation-delay: 0.1s; }
+      .l2  { animation: fadein 0.3s ease forwards; animation-delay: 0.5s; }
+      .l3  { animation: fadein 0.3s ease forwards; animation-delay: 0.9s; }
+      .l4  { animation: fadein 0.3s ease forwards; animation-delay: 1.3s; }
+      .l5  { animation: fadein 0.3s ease forwards; animation-delay: 1.7s; }
+      .l6  { animation: fadein 0.3s ease forwards; animation-delay: 2.1s; }
+      .l7  { animation: fadein 0.3s ease forwards; animation-delay: 2.5s; }
+      .l8  { animation: fadein 0.3s ease forwards; animation-delay: 2.9s; }
+      .l9  { animation: fadein 0.3s ease forwards; animation-delay: 3.3s; }
+      .l10 { animation: fadein 0.3s ease forwards; animation-delay: 3.7s; }
+      .l11 { animation: fadein 0.3s ease forwards; animation-delay: 4.1s; }
+      .l12 { animation: fadein 0.3s ease forwards; animation-delay: 4.5s; }
+
+      @keyframes fadein {
+        from { opacity: 0; transform: translateX(-4px); }
+        to   { opacity: 1; transform: translateX(0); }
+      }
+
+      /* ── name headline ── */
+      .name-text {
+        font-family: 'Courier New', monospace;
+        font-weight: 700;
+        font-size: 26px;
+        fill: #ffffff;
+        letter-spacing: 4px;
+        opacity: 0;
+        animation: fadein 0.6s ease forwards;
+        animation-delay: 0.05s;
+      }
+
+      /* ── accent colours ── */
+      .green  { fill: #00e0a4; }
+      .yellow { fill: #f5c842; }
+      .white  { fill: #ffffff; }
+      .dim    { fill: #4a7c6f; }
+      .red    { fill: #ff4f4f; }
+      .blue   { fill: #56b4f5; }
+
+      /* ── cursor blink ── */
+      .cursor {
+        fill: #00e0a4;
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+
+      /* ── glow pulse on border ── */
+      .glow-border {
+        fill: none;
+        stroke: #00e0a4;
+        stroke-width: 1.5;
+        filter: url(#glow);
+        animation: pulse-glow 3s ease-in-out infinite;
+      }
+      @keyframes pulse-glow {
+        0%, 100% { stroke-opacity: 0.6; }
+        50%       { stroke-opacity: 1.0; }
+      }
+
+      /* ── top bar dots ── */
+      .dot-r { fill: #ff5f57; }
+      .dot-y { fill: #ffbd2e; }
+      .dot-g { fill: #28ca42; }
+    </style>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="textglow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <pattern id="scanline-pattern" x="0" y="0" width="900" height="4" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="900" height="1" fill="#000000" opacity="1"/>
+      <rect x="0" y="1" width="900" height="3" fill="transparent"/>
+    </pattern>
+  </defs>
+
+  <!-- ── Background ── -->
+  <rect width="900" height="280" fill="#0a0f0d"/>
+
+  <!-- ── Matrix rain columns (25 columns across 900px) ── -->
+  <!-- Each text element is a vertical strip of random chars -->
+  <g id="matrix-rain" opacity="0.5">
+    <text class="col" x="18"  y="0">カ0ナ1ヲ0セ1ク0ア1テ0ヌ1ヱ</text>
+    <text class="col" x="54"  y="0">1ラ0ミ1ヤ0ソ1ウ0ケ1ハ0ヨ1ス</text>
+    <text class="col" x="90"  y="0">カ1ア0セ1テ0ヌ1ヱ0ラ1ミ0ヤ</text>
+    <text class="col" x="126" y="0">0ソ1ウ0ケ1ハ0ヨ1ス0カ1ナ0ヲ</text>
+    <text class="col" x="162" y="0">1セ0ク1ア0テ1ヌ0ヱ1ラ0ミ1ヤ</text>
+    <text class="col" x="198" y="0">0ソ1ウ0ケ1ハ0ヨ1ス0カ1ア0セ</text>
+    <text class="col" x="234" y="0">1テ0ヌ1ヱ0ラ1ミ0ヤ1ソ0ウ1ケ</text>
+    <text class="col" x="270" y="0">0ハ1ヨ0ス1カ0ナ1ヲ0セ1ク0ア</text>
+    <text class="col" x="306" y="0">1テ0ヌ1ヱ0ラ1ミ0ヤ1ソ0ウ1ケ</text>
+    <text class="col" x="342" y="0">0カ1ア0テ1ヌ0ヱ1ラ0ミ1ヤ0ソ</text>
+    <text class="col" x="378" y="0">1ウ0ケ1ハ0ヨ1ス0カ1ナ0ヲ1セ</text>
+    <text class="col" x="414" y="0">0ク1ア0テ1ヌ0ヱ1ラ0ミ1ヤ0ソ</text>
+    <text class="col" x="450" y="0">1ウ0ケ1ハ0ヨ1ス0カ1ナ0ヲ1セ</text>
+    <text class="col" x="486" y="0">0ク1ア0セ1テ0ヌ1ヱ0ラ1ミ0ヤ</text>
+    <text class="col" x="522" y="0">1ソ0ウ1ケ0ハ1ヨ0ス1カ0ナ1ヲ</text>
+    <text class="col" x="558" y="0">0セ1ク0ア1テ0ヌ1ヱ0ラ1ミ0ヤ</text>
+    <text class="col" x="594" y="0">1ソ0ウ1ケ0ハ1ヨ0ス1カ0ア1テ</text>
+    <text class="col" x="630" y="0">0ヌ1ヱ0ラ1ミ0ヤ1ソ0ウ1ケ0ハ</text>
+    <text class="col" x="666" y="0">1ヨ0ス1カ0ナ1ヲ0セ1ク0ア1テ</text>
+    <text class="col" x="702" y="0">0ヌ1ヱ0ラ1ミ0ヤ1ソ0ウ1ケ0ハ</text>
+    <text class="col" x="738" y="0">1ヨ0ス1カ0ナ1ヲ0セ1テ0ヌ1ヱ</text>
+    <text class="col" x="774" y="0">0ラ1ミ0ヤ1ソ0ウ1ケ0ハ1ヨ0ス</text>
+    <text class="col" x="810" y="0">1カ0ナ1ヲ0セ1ク0ア1テ0ヌ1ヱ</text>
+    <text class="col" x="846" y="0">0ラ1ミ0ヤ1ソ0ウ1ケ0ハ1ヨ0ス</text>
+    <text class="col" x="882" y="0">1カ0ナ1ヲ0セ1ク0ア1テ0ヌ1ヱ</text>
+  </g>
+
+  <!-- ── Scanlines ── -->
+  <rect width="900" height="280" class="scanlines"/>
+
+  <!-- ── Terminal window ── -->
+  <rect x="30" y="22" width="840" height="238" rx="8" ry="8" fill="rgba(0,0,0,0.85)"/>
+  <rect x="30" y="22" width="840" height="238" rx="8" ry="8" class="glow-border"/>
+
+  <!-- ── Title bar ── -->
+  <rect x="30" y="22" width="840" height="28" rx="8" ry="8" fill="#111a16"/>
+  <rect x="30" y="36" width="840" height="14" fill="#111a16"/>
+  <!-- dots -->
+  <circle cx="52" cy="36" r="5" class="dot-r"/>
+  <circle cx="68" cy="36" r="5" class="dot-y"/>
+  <circle cx="84" cy="36" r="5" class="dot-g"/>
+  <!-- title bar text -->
+  <text x="450" y="41" font-family="'Courier New', monospace" font-size="11" fill="#4a7c6f" text-anchor="middle">karan@security: ~/breach.sys — bash</text>
+
+  <!-- ── Terminal content ── -->
+
+  <!-- line 1: prompt + name -->
+  <text class="tline l1" x="55" y="76">
+    <tspan class="green">┌──(</tspan><tspan class="blue">karan</tspan><tspan class="green">㉿security)</tspan><tspan class="green">-[</tspan><tspan class="white">~/</tspan><tspan class="green">]</tspan>
+  </text>
+
+  <!-- line 2: whoami -->
+  <text class="tline l2" x="55" y="94">
+    <tspan class="green">└─$</tspan><tspan class="white"> whoami &amp;&amp; cat /proc/credentials</tspan>
+  </text>
+
+  <!-- line 3: name output -->
+  <text class="tline l3" x="55" y="113">
+    <tspan class="yellow" font-size="15" font-weight="bold" letter-spacing="2">KARAN DESAI</tspan>
+    <tspan class="dim">  // Security Engineer · Penetration Tester · OSS Contributor</tspan>
+  </text>
+
+  <!-- line 4: hackathon -->
+  <text class="tline l4" x="55" y="131">
+    <tspan class="dim">[</tspan><tspan class="yellow">ACHIEVEMENT</tspan><tspan class="dim">]</tspan>
+    <tspan class="white"> 🏆 IEEE SA Cybersecurity Hackathon 2026 — </tspan><tspan class="yellow">1st Place</tspan>
+    <tspan class="dim"> · 190 teams · 34 countries · $5,000</tspan>
+  </text>
+
+  <!-- line 5: metasploit -->
+  <text class="tline l5" x="55" y="149">
+    <tspan class="dim">[</tspan><tspan class="blue">OSS</tspan><tspan class="dim">]</tspan>
+    <tspan class="white">  Metasploit Framework contributor </tspan><tspan class="dim">(rapid7/rex-socket · PR #80 · merged · 50k+ ⭐)</tspan>
+  </text>
+
+  <!-- line 6: bug bounty -->
+  <text class="tline l6" x="55" y="167">
+    <tspan class="dim">[</tspan><tspan class="red">VULN</tspan><tspan class="dim">]</tspan>
+    <tspan class="white">  Active Bugcrowd researcher — SAML 2.0 SSO attack surface on Rapyd</tspan>
+  </text>
+
+  <!-- line 7: stack -->
+  <text class="tline l7" x="55" y="185">
+    <tspan class="dim">[</tspan><tspan class="green">STACK</tspan><tspan class="dim">]</tspan>
+    <tspan class="dim"> Go · Ruby · Python · Rust · K8s · Falco · Metasploit · Kafka · Flink · AWS</tspan>
+  </text>
+
+  <!-- line 8: maya project -->
+  <text class="tline l8" x="55" y="203">
+    <tspan class="dim">[</tspan><tspan class="blue">PROJECT</tspan><tspan class="dim">]</tspan>
+    <tspan class="white"> Maya</tspan>
+    <tspan class="dim"> — autonomous K8s honeynet · PPO-RL · MITRE ATT&amp;CK · CRDT state sync</tspan>
+  </text>
+
+  <!-- line 9: location / role -->
+  <text class="tline l9" x="55" y="221">
+    <tspan class="dim">[</tspan><tspan class="green">INFO</tspan><tspan class="dim">]</tspan>
+    <tspan class="dim">  eJPT Certified · ACM SIT Pune Cybersecurity Co-Lead · Arch Linux + Hyprland</tspan>
+  </text>
+
+  <!-- line 10: prompt -->
+  <text class="tline l10" x="55" y="243">
+    <tspan class="green">┌──(</tspan><tspan class="blue">karan</tspan><tspan class="green">㉿security)</tspan><tspan class="green">-[</tspan><tspan class="white">~/</tspan><tspan class="green">]</tspan>
+  </text>
+  <text class="tline l11" x="55" y="258">
+    <tspan class="green">└─$</tspan><tspan class="white"> _</tspan>
+  </text>
+
+  <!-- blinking cursor -->
+  <rect class="cursor l12" x="96" y="246" width="8" height="14" rx="1"/>
+</svg>
